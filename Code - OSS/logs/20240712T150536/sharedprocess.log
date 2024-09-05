@@ -1,0 +1,44 @@
+2024-07-12 15:05:39.277 [info] Started initializing default profile extensions in extensions installation folder. file:///home/negrojose/.vscode-oss/extensions
+2024-07-12 15:05:39.445 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/negrojose/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/negrojose/.vscode-oss/extensions/extensions.json.vsctmp'
+    at h.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19262)
+    at f (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19372)
+    at P.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36571)
+    at P.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:28919)
+    at async s.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14907)
+    at async V.vb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:119283)
+2024-07-12 15:05:39.446 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/negrojose/.vscode-oss/extensions Unable to create file 'vscode-userdata:/home/negrojose/.vscode-oss/extensions/extensions.json' that already exists when overwrite flag is not set
+2024-07-12 15:05:39.447 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/negrojose/.vscode-oss/extensions
+2024-07-12 15:08:36.773 [info] Getting Manifest... ms-python.python
+2024-07-12 15:08:36.994 [info] Installing extension: ms-python.python {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/negrojose/.vscode-oss/extensions/extensions.json","path":"/home/negrojose/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.91.0","date":"2024-07-03T20:40:42.797Z"}}
+2024-07-12 15:08:37.191 [info] Getting Manifest... ms-python.debugpy
+2024-07-12 15:08:37.423 [info] Installing extension: ms-python.debugpy {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/negrojose/.vscode-oss/extensions/extensions.json","path":"/home/negrojose/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.91.0","date":"2024-07-03T20:40:42.797Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2024-07-12 15:08:38.938 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-07-12 15:08:38.938 [info] Extension signature verification is not done: ms-python.python
+2024-07-12 15:08:38.980 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-07-12 15:08:38.980 [info] Extension signature verification is not done: ms-python.debugpy
+2024-07-12 15:08:40.341 [info] Extracted extension to file:///home/negrojose/.vscode-oss/extensions/ms-python.debugpy-2024.8.0-linux-x64: ms-python.debugpy
+2024-07-12 15:08:40.361 [info] Renamed to /home/negrojose/.vscode-oss/extensions/ms-python.debugpy-2024.8.0-linux-x64
+2024-07-12 15:08:40.474 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/negrojose/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/negrojose/.vscode-oss/extensions/extensions.json.vsctmp'
+    at h.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19262)
+    at f (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19372)
+    at P.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36571)
+    at P.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:28919)
+    at async s.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14907)
+    at async V.vb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:119283)
+2024-07-12 15:08:42.267 [info] Extracted extension to file:///home/negrojose/.vscode-oss/extensions/ms-python.python-2024.10.0-universal: ms-python.python
+2024-07-12 15:08:42.282 [info] Renamed to /home/negrojose/.vscode-oss/extensions/ms-python.python-2024.10.0-universal
+2024-07-12 15:08:42.308 [info] Extension installed successfully: ms-python.debugpy vscode-userdata:/home/negrojose/.vscode-oss/extensions/extensions.json
+2024-07-12 15:08:42.309 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/negrojose/.vscode-oss/extensions/extensions.json
+2024-07-12 15:08:42.369 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/negrojose/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/negrojose/.vscode-oss/extensions/extensions.json.vsctmp'
+    at h.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19262)
+    at f (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19372)
+    at P.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36571)
+    at P.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:28919)
+    at async s.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14907)
+    at async V.vb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:119283)

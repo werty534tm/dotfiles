@@ -1,0 +1,99 @@
+2024-07-12 15:05:38.527 [info] Started local extension host with pid 2281.
+2024-07-12 15:05:38.932 [info] Started initializing default profile extensions in extensions installation folder. file:///home/negrojose/.vscode-oss/extensions
+2024-07-12 15:05:39.324 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/negrojose/.vscode-oss/extensions
+2024-07-12 15:05:42.127 [info] [perf] Render performance baseline is 58ms
+2024-07-12 15:06:06.026 [info] Started local extension host with pid 2387.
+2024-07-12 15:06:08.818 [info] [perf] Render performance baseline is 56ms
+2024-07-12 15:08:42.406 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, contribIssueReporter, debugVisualization'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2024-07-12 15:08:42.407 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, contribIssueReporter, terminalShellIntegration'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2024-07-12 15:08:42.448 [error] [ms-python.debugpy]: issue/reporter is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribIssueReporter"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.debugpy
+2024-07-12 15:08:42.449 [error] [ms-python.python]: issue/reporter is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribIssueReporter"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2024-07-12 15:08:42.449 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2024-07-12 15:08:42.979 [error] spawn /home/negrojose/.vscode-oss/extensions/ms-python.python-2024.10.0-universal/python-env-tools/bin/pet ENOENT: Error: spawn /home/negrojose/.vscode-oss/extensions/ms-python.python-2024.10.0-universal/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-07-12 15:09:05.053 [error] Invalid debug adapter: Error: Invalid debug adapter
+    at c.p (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1789:95)
+    at c.$acceptDAExit (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1789:35)
+    at S (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1678:14630)
+    at S.Q (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1678:14396)
+    at S.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1678:13429)
+    at S.L (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1678:12485)
+    at d.value (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1678:10959)
+    at l.B (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:93:732)
+    at l.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:93:949)
+    at s.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:620:14823)
+    at x.onmessage (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1693:8186)
+2024-07-12 15:10:26.295 [error] Invalid debug adapter: Error: Invalid debug adapter
+    at c.p (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1789:95)
+    at c.$acceptDAExit (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1789:35)
+    at S (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1678:14630)
+    at S.Q (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1678:14396)
+    at S.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1678:13429)
+    at S.L (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1678:12485)
+    at d.value (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1678:10959)
+    at l.B (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:93:732)
+    at l.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:93:949)
+    at s.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:620:14823)
+    at x.onmessage (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1693:8186)
+2024-07-12 15:12:43.934 [error] Invalid debug adapter: Error: Invalid debug adapter
+    at c.p (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1789:95)
+    at c.$acceptDAExit (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1789:35)
+    at S (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1678:14630)
+    at S.Q (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1678:14396)
+    at S.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1678:13429)
+    at S.L (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1678:12485)
+    at d.value (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1678:10959)
+    at l.B (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:93:732)
+    at l.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:93:949)
+    at s.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:620:14823)
+    at x.onmessage (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1693:8186)
+2024-07-12 15:14:17.055 [error] Invalid debug adapter: Error: Invalid debug adapter
+    at c.p (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1789:95)
+    at c.$acceptDAExit (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1789:35)
+    at S (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1678:14630)
+    at S.Q (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1678:14396)
+    at S.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1678:13429)
+    at S.L (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1678:12485)
+    at d.value (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1678:10959)
+    at l.B (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:93:732)
+    at l.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:93:949)
+    at s.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:620:14823)
+    at x.onmessage (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1693:8186)
+2024-07-12 15:19:01.400 [error] Invalid debug adapter: Error: Invalid debug adapter
+    at c.p (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1789:95)
+    at c.$acceptDAExit (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1789:35)
+    at S (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1678:14630)
+    at S.Q (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1678:14396)
+    at S.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1678:13429)
+    at S.L (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1678:12485)
+    at d.value (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1678:10959)
+    at l.B (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:93:732)
+    at l.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:93:949)
+    at s.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:620:14823)
+    at x.onmessage (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1693:8186)
+2024-07-12 15:19:16.718 [error] Invalid debug adapter: Error: Invalid debug adapter
+    at c.p (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1789:95)
+    at c.$acceptDAExit (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1789:35)
+    at S (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1678:14630)
+    at S.Q (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1678:14396)
+    at S.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1678:13429)
+    at S.L (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1678:12485)
+    at d.value (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1678:10959)
+    at l.B (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:93:732)
+    at l.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:93:949)
+    at s.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:620:14823)
+    at x.onmessage (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1693:8186)
+2024-07-12 15:19:29.956 [error] Invalid debug adapter: Error: Invalid debug adapter
+    at c.p (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1789:95)
+    at c.$acceptDAExit (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1789:35)
+    at S (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1678:14630)
+    at S.Q (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1678:14396)
+    at S.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1678:13429)
+    at S.L (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1678:12485)
+    at d.value (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1678:10959)
+    at l.B (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:93:732)
+    at l.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:93:949)
+    at s.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:620:14823)
+    at x.onmessage (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1693:8186)
