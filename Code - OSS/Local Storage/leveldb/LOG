@@ -1,2 +1,3 @@
-2024/07/12-15:05:36.225 88f Creating DB /home/negrojose/.config/Code - OSS/Local Storage/leveldb since it was missing.
-2024/07/12-15:05:36.248 88f Reusing MANIFEST /home/negrojose/.config/Code - OSS/Local Storage/leveldb/MANIFEST-000001
+2024/09/30-12:24:15.495 58b Reusing MANIFEST /home/negrojose/.config/Code - OSS/Local Storage/leveldb/MANIFEST-000001
+2024/09/30-12:24:15.519 58b Recovering log #3
+2024/09/30-12:24:15.520 58b Reusing old log /home/negrojose/.config/Code - OSS/Local Storage/leveldb/000003.log 

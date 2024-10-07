@@ -14,8 +14,21 @@ local reglas = {
 			buttons = clientbuttons,
 			screen = awful.screen.preferred,
 			placement = awful.placement.no_overlap + awful.placement.no_offscreen,
+			fullscreen = false,
 		},
 	},
+	--[[
+	-- Non fullscreen apps
+	{
+		rule_any = {
+			instance = {},
+			class = {},
+			name = {},
+		},
+	},
+	]]
+	--
+	--
 
 	-- Floating clients.
 	{
@@ -44,6 +57,8 @@ local reglas = {
 			name = {
 				"Event Tester", -- xev.
 				"QEMU",
+				"xeyes",
+				-- "Thunar",
 			},
 			role = {
 				"AlarmWindow", -- Thunderbird's calendar.

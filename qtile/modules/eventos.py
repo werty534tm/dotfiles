@@ -1,27 +1,33 @@
 # imports
-from modules.sonidos import efectos, SONIDOS, CMD
 import subprocess
 import time
-from libqtile import qtile, hook
+
+from libqtile import hook, qtile
+
+from modules.sonidos import CMD, SONIDOS, efectos
 
 # constantes
 
 # Autostart
-@hook.subscribe.startup_once
-def autostart():
-    subprocess.Popen(["polybarPersonal.sh"])
+# @hook.subscribe.startup_once
+# def autostart():
+#     subprocess.Popen(["polybarPersonal.sh"])
+
 
 # Hooks
 def proceso(effect):
     path = SONIDOS + effect
     subprocess.Popen(["sh", CMD, path])
 
+
 def guardarLog(mensaje):
-    mensaje = time.strftime('%H:%M:%S', time.localtime()) + " " + mensaje
+    mensaje = time.strftime("%H:%M:%S", time.localtime()) + " " + mensaje
     subprocess.Popen(["sh", "-c", f"echo {mensaje} >> ~/.config/qtile/log"])
 
+
 def borrarLog():
-    subprocess.Popen(["sh", "-c","rm", "-rf", "~/.config/qtile/log"])
+    subprocess.Popen(["sh", "-c", "rm", "-rf", "~/.config/qtile/log"])
+
 
 def compararGrupo(grupo):
     guardarLog("Intentando obtener el manager.")
@@ -30,8 +36,11 @@ def compararGrupo(grupo):
         if manager is not None:
             guardarLog("Manager obtenido.")
             return manager.current_group.name != grupo
-        else: guardarLog("Error: manager no obtenido.")
-    except Exception as e: guardarLog(f"Error 2: {e}")
+        else:
+            guardarLog("Error: manager no obtenido.")
+    except Exception as e:
+        guardarLog(f"Error 2: {e}")
+
 
 """
 @hook.subscribe.focus_change
@@ -41,20 +50,24 @@ def focus_change():
     subprocess.Popen(["sh", cmd, path])
 """
 
+
 @hook.subscribe.client_new
 def new_client(client):
     proceso(efectos["abrir_ventana"])
     guardarLog("ventana abierta")
+
 
 @hook.subscribe.client_killed
 def client_killed(client):
     proceso(efectos["cerrar_ventana"])
     guardarLog("ventana cerrada")
 
+
 @hook.subscribe.float_change
 def float_change():
     proceso(efectos["float_change"])
     guardarLog("float change")
+
 
 """
 @hook.subscribe.group_window_add
@@ -64,10 +77,12 @@ def group_window_add(group, window):
         proceso(efectos["group_window_add"])
 """
 
+
 @hook.subscribe.shutdown
 def shutdown():
     borrarLog()
     proceso(efectos["error"])
+
 
 """
 @hook.subscribe.current_screen_change

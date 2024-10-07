@@ -30,21 +30,23 @@ from libqtile.config import Click, Drag, Key, Match, Screen
 from libqtile.lazy import lazy
 from libqtile.utils import guess_terminal
 
-# modules
-# keys
-from modules.keys import keys
+# eventos
+import modules.eventos
 
 # groups
 from modules.groups import groups
 
+# modules
+# keys
+from modules.keys import keys
+
 # layouts
 from modules.layouts import layouts
 
-# eventos
-import modules.eventos
-
 # widgets
 from modules.widgets import extension_defaults, widget_defaults, widgets_list
+
+# from qtile.modules import widgets
 
 mod = "mod4"
 terminal = guess_terminal()
@@ -86,18 +88,39 @@ for i, group in enumerate(groups, 1):
         ]
     )
 
+
 def init_screens():
     return [
-        Screen(),
-   ]
+        Screen(
+            top=bar.Bar(
+                widgets=widgets_list,
+                size=25,
+                background="#00000000",
+                border_color=["#00000000", "#00000000", "#00000000", "#00000000"],
+                border_width=[4, 4, 4, 4],
+                opacity=1,
+                margin=[10, 10, 3, 10],
+            ),
+            bottom=bar.Gap(5),
+            left=bar.Gap(5),
+            right=bar.Gap(5),
+        ),
+    ]
 
 
 screens = init_screens()
 
 # Drag floating layouts.
 mouse = [
-    Drag([mod], "Button1", lazy.window.set_position_floating(), start=lazy.window.get_position()),
-    Drag([mod], "Button3", lazy.window.set_size_floating(), start=lazy.window.get_size()),
+    Drag(
+        [mod],
+        "Button1",
+        lazy.window.set_position_floating(),
+        start=lazy.window.get_position(),
+    ),
+    Drag(
+        [mod], "Button3", lazy.window.set_size_floating(), start=lazy.window.get_size()
+    ),
     Click([mod], "Button2", lazy.window.bring_to_front()),
 ]
 

@@ -1,2 +1,3 @@
-2024/07/12-15:20:30.071 88f Creating DB /home/negrojose/.config/Code - OSS/Session Storage since it was missing.
-2024/07/12-15:20:30.088 88f Reusing MANIFEST /home/negrojose/.config/Code - OSS/Session Storage/MANIFEST-000001
+2024/09/30-12:31:54.878 58b Reusing MANIFEST /home/negrojose/.config/Code - OSS/Session Storage/MANIFEST-000001
+2024/09/30-12:31:54.878 58b Recovering log #3
+2024/09/30-12:31:54.881 58b Reusing old log /home/negrojose/.config/Code - OSS/Session Storage/000003.log 

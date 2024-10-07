@@ -117,10 +117,10 @@ local globalkeys = gears.table.join(
 	end),
 	-- Brillo
 	awful.key({}, "XF86MonBrightnessUp", function()
-		awful.spawn("brightnessctl set +5%")
+		awful.spawn("brightnessctl set +2%")
 	end),
 	awful.key({}, "XF86MonBrightnessDown", function()
-		awful.spawn("brightnessctl set 5%-")
+		awful.spawn("brightnessctl set 2%-")
 	end)
 )
 
